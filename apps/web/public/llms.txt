@@ -1,0 +1,14 @@
+# Skymock
+
+> Instant API mock server and live request inspector for frontend and mobile developers.
+
+## Overview
+Skymock lets developers define JSON API contracts per project and instantly publish a live public Base URL (`/m/{project_slug}`) with dynamic path matching, request guards, response templating, latency simulation, and a live request inspector.
+
+## Core Capabilities
+* **Isolated Project Workspaces**: Create separate mock projects with unique Base URLs supporting Public and Protected access modes.
+* **Dynamic Endpoint Builder**: Configure GET, POST, PUT, PATCH, DELETE, and automatic OPTIONS CORS preflight routes with dynamic path parameters.
+* **Request Guards & Conditional Rules**: Enforce header, Bearer auth, query, and body validation rules with custom HTTP status code overrides.
+* **Dynamic Template Engine**: Generate live UUIDs, ISO timestamps, and echoed request values directly inside JSON mock responses.
+* **Latency & Status Simulation**: Test slow networks and error responses such as 401, 422, 429, and 500 without waiting for backend deployments.
+* **Live Request Inspector**: Stream incoming HTTP requests, headers, payloads, and timings live via Server Sent Events.

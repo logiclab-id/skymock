@@ -1,0 +1,17 @@
+{
+  "name": "Skymock",
+  "short_name": "SM",
+  "description": "Instant API mock server and live request inspector for frontend and mobile developers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#facc15",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
